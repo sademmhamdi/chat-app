@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import '../services/auth_service.dart';
 import '../services/chat_service.dart';
 import '../models/user_model.dart';
 
@@ -17,8 +16,6 @@ class _CreateGroupScreenState extends State<CreateGroupScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final chatService = Provider.of<ChatService>(context);
-
     return Scaffold(
       appBar: AppBar(
         title: Text('Create Group'),

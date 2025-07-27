@@ -161,7 +161,7 @@ class _AuthScreenState extends State<AuthScreen> {
         _loading = false;
       });
 
-      if (error != null) {
+      if (error != null && mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(content: Text(error)),
         );
