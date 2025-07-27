@@ -6,6 +6,8 @@ import 'contacts_screen.dart';
 import 'games_screen.dart';
 
 class HomeScreen extends StatefulWidget {
+  const HomeScreen({super.key});
+
   @override
   _HomeScreenState createState() => _HomeScreenState();
 }
@@ -14,9 +16,9 @@ class _HomeScreenState extends State<HomeScreen> {
   int _currentIndex = 0;
 
   final List<Widget> _screens = [
-    ChatListScreen(),
-    ContactsScreen(),
-    GamesScreen(),
+    const ChatListScreen(),
+    const ContactsScreen(),
+    const GamesScreen(),
   ];
 
   @override

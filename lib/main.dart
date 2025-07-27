@@ -54,9 +54,9 @@ class AuthWrapper extends StatelessWidget {
     final user = authService.user; // FirebaseAuth.instance.currentUser assumed
 
     if (user != null) {
-      return HomeScreen();
+      return const HomeScreen();
     } else {
-      return AuthScreen();
+      return const AuthScreen();
     }
   }
 }

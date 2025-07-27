@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:chattach/services/auth_service.dart';
-import 'package:chattach/screens/home_screen.dart';
-import 'package:chattach/screens/auth_screen.dart';
+import 'auth_service.dart';
+import '../screens/home_screen.dart';
+import '../screens/auth_screen.dart';
 
 class NotificationService {
   static void showInAppNotification(

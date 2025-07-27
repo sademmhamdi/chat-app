@@ -7,6 +7,8 @@ import 'chat_screen.dart';
 import 'create_group_screen.dart';
 
 class ChatListScreen extends StatelessWidget {
+  const ChatListScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     final authService = Provider.of<AuthService>(context);

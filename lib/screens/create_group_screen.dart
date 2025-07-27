@@ -5,6 +5,8 @@ import '../services/chat_service.dart';
 import '../models/user_model.dart';
 
 class CreateGroupScreen extends StatefulWidget {
+  const CreateGroupScreen({super.key});
+
   @override
   _CreateGroupScreenState createState() => _CreateGroupScreenState();
 }

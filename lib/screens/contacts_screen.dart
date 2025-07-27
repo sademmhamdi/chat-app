@@ -6,6 +6,8 @@ import '../models/user_model.dart';
 import 'chat_screen.dart';
 
 class ContactsScreen extends StatefulWidget {
+  const ContactsScreen({super.key});
+
   @override
   _ContactsScreenState createState() => _ContactsScreenState();
 }
