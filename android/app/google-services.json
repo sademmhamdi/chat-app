@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "989870492402",
+    "project_id": "chatcall-pro",
+    "storage_bucket": "chatcall-pro.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989870492402:android:8180b28bb3c0ee66fb5e6b",
+        "android_client_info": {
+          "package_name": "com.example.chatcallpro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4B3je6Pkr7jiBymNFQG767eKZNL8JvsQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989870492402:android:5ede856c4f032ea5fb5e6b",
+        "android_client_info": {
+          "package_name": "com.example.chattach"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4B3je6Pkr7jiBymNFQG767eKZNL8JvsQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
