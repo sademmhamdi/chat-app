@@ -13,9 +13,7 @@ class CreateGroupScreen extends StatefulWidget {
 
 class _CreateGroupScreenState extends State<CreateGroupScreen> {
   final TextEditingController _groupNameController = TextEditingController();
-  final TextEditingController _searchController = TextEditingController();
   List<UserModel> _selectedUsers = [];
-  String _searchQuery = '';
 
   @override
   Widget build(BuildContext context) {

@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:agora_rtc_engine/agora_rtc_engine.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
 
 class CallService extends ChangeNotifier {
-  final FirebaseFirestore _firestore = FirebaseFirestore.instance;
   RtcEngine? _engine;
   bool _localUserJoined = false;
   int? _remoteUid;
@@ -15,7 +13,8 @@ class CallService extends ChangeNotifier {
   bool get muted => _muted;
   bool get videoDisabled => _videoDisabled;
 
-  // Replace with your Agora App ID
+  // TODO: Replace with your actual Agora App ID from https://console.agora.io/
+  // This is a placeholder and needs to be configured for the app to work
   static const String appId = "YOUR_AGORA_APP_ID";
 
   Future<void> initializeAgora() async {
