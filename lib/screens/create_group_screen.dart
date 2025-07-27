@@ -24,7 +24,10 @@ class _CreateGroupScreenState extends State<CreateGroupScreen> {
         title: Text('Create Group'),
         actions: [
           TextButton(
-            onPressed: _selectedUsers.length < 2 ? null : _createGroup,
+            onPressed: _selectedUsers.length < 2 ? null : () {
+              // TODO: Implement group creation
+              Navigator.pop(context);
+            },
             child: Text(
               'Create',
               style: TextStyle(
@@ -88,14 +91,34 @@ class _CreateGroupScreenState extends State<CreateGroupScreen> {
                                     Icons.close,
                                     size: 16,
                                     color: Colors.white,
-                  fontSize: 16,
-                  fontWeight: FontWeight.bold,
-                ),
-                textAlign: TextAlign.center,
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        SizedBox(height: 4),
+                        Text(
+                          user.displayName,
+                          style: TextStyle(
+                            fontSize: 12,
+                            fontWeight: FontWeight.bold,
+                          ),
+                          textAlign: TextAlign.center,
+                        ),
+                      ],
+                    ),
+                  );
+                },
               ),
-            ],
+            ),
+          // TODO: Add more UI elements like search functionality
+          Expanded(
+            child: Center(
+              child: Text('Group creation UI needs to be completed'),
+            ),
           ),
-        ),
+        ],
       ),
     );
   }
