@@ -1,0 +1,45 @@
+name: chattach
+description: A Flutter chat and call application
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.17.9
+  cloud_firestore: ^4.15.9
+  firebase_storage: ^11.6.10
+
+  # State management
+  provider: ^6.1.1
+
+  # Image and file picking
+  image_picker: ^1.0.7
+  file_picker: ^8.0.0+1
+
+  # Video calling (mobile only)
+  agora_rtc_engine: ^6.2.6
+
+  # Utilities
+  uuid: ^4.2.1
+  intl: ^0.20.2
+  flutter_localizations:
+    sdk: flutter
+
+  # Cached network image
+  cached_network_image: ^3.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
