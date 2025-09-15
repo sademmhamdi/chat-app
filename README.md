@@ -238,4 +238,27 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Made with ❤️ by [Sadem Mhamdi](https://github.com/sademmhamdi)**
 
+## 👥 Collaborators
+
+We appreciate all the amazing contributors who help make ChatCall Pro better! 🚀
+
+### Core Team
+- **[Sadem Mhamdi](https://github.com/sademmhamdi)** - *Project Lead & Founder*
+  - Full-stack Flutter development
+  - Firebase integration
+  - Video calling implementation
+  - Project architecture & documentation
+
+### Contributors
+<!-- Add contributors here as they join the project -->
+
+### How to Become a Collaborator
+We welcome contributors who:
+- Make significant code contributions
+- Help with documentation and testing
+- Provide valuable feedback and suggestions
+- Help maintain the project
+
+**Want to contribute?** Check out our [Contributing Guide](CONTRIBUTING.md) to get started!
+
 ⭐ Star this repo if you find it helpful!
